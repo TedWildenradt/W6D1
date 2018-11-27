@@ -6,7 +6,7 @@ function Asteroid(pos) {
   this.RADIUS = 10;
   this.pos = pos;
   this.vel = Util.randomVec(this.RADIUS * 2);
-  MovingObject.call(this, this.pos, this.vel, this.COLOR, this.RADIUS);
+  MovingObject.call(this, this.pos, this.vel, this.RADIUS, this.COLOR);
 }
 
 // const DEFAULTS = {
